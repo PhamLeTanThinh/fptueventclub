@@ -1,0 +1,59 @@
+.fev__timline {
+    position: relative;
+    background: white;
+}
+
+.fev__timline .middle-line {
+    border-left: 2px solid #cec7bb;
+    height: 145px;
+    position: relative;
+    left: 50%;
+    /* z-index: ; */
+}
+@media only screen and (max-width: 1680px) {
+    .fev__timline h1{
+        font-size: 2rem;
+    }
+    .card-title{
+        font-size: 25px;
+    }
+    .card-subtitle{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 18px;
+    }
+    .fev__timline .middle-line {
+        height: 145px;
+        
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .card-title{
+        font-size: 23px;
+    }
+    .card-subtitle{
+        font-size: 15px;
+    }
+    .card-text{
+        font-size: 16px;
+    }
+    .fev__timline .middle-line {
+        height: 145px;
+        
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .card-title{
+        font-size: 20px;
+    }
+    .card-subtitle{
+        font-size: 13px;
+    }
+    .card-text{
+        font-size: 14px;
+    }
+    .fev__timline .middle-line {
+        height: 145px;
+    }
+}

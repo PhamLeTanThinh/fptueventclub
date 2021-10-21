@@ -1,0 +1,15 @@
+html, body {
+    font-family: 'Open Sans', sans-serif ,'Arvo', serif;
+    font-size: 18px;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::selection {background:#63045e;color:#fff;}
+::-moz-selection {background:#63045e;color:#fff;}
+::-webkit-selection {background:#63045e;color:#fff;}
+

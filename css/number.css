@@ -1,0 +1,61 @@
+.number__content {
+    padding: 70px 0;
+    text-align: center;
+    font-size: 4rem;
+    margin: 0 auto;
+}
+.fev__number {
+    width: 100%;
+    background-color: #cec7bb;
+    position: relative;
+}
+.fev__number .counter {
+    color: #ff8b00 !important;
+}
+.fev__number span {
+    color: #ff8b00 !important;
+}
+
+.fev__number .number__title {
+    color: #63045e;
+    font-size: 1.3rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .number__content {
+        font-size: 2rem;
+    }
+    .number__title {
+        font-size: 11px
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+
+    .fev__number .counter {
+        font-size: 50px;
+    }
+    .fev__number .number__title {
+        font-size: 20px;
+    }
+    .fev__number span {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .number__content {
+        padding: 30px;
+    }
+    .fev__number .counter {
+        font-size: 2rem;
+    }
+    .fev__number .number__title {
+        color: #63045e;
+        font-size: 18px
+    }
+    .fev__number span {
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,130 @@
+.fev__about {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.fev__about__content {
+    margin: 0 auto;
+}
+.fev__about__left {
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+    background-image: linear-gradient(75deg, #2a0845, #cbb4d4, #cbb4d4, #63045e);
+    background-size: 300%;
+    background-position: left;
+
+    letter-spacing: 5px;
+    transition: 1s background-position ease-in-out;
+    transition: all 1s;
+}
+
+.fev__about__left h1 {
+    font-size: 42px;
+    font-weight: bold;
+}
+.fev__about__left:hover {
+    background-position: right;
+    letter-spacing: 2rem;
+}
+.fev__about__right {
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.about__content__1 {
+    margin: 30px;
+    line-height: 30px;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-size: 21px;
+    font-weight: 400;
+    color: #63045e;
+}
+
+@media only screen and (max-width: 600px) {
+    .fev__about__left {
+        height: 300px;
+        letter-spacing: 1rem;
+        font-weight: 400;
+        color: #63045e;
+    }
+    .fev__about__left h1 {
+        font-size: 30px;
+    }
+    .about__content__1 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .fev__about__left {
+        height: 450px;
+    }
+    .fev__about__left h1 {
+        font-size: 2rem;
+    }
+    .fev__about__right {
+        height: 450px;
+    }
+    .about__content__1 {
+        margin: 30px;
+        line-height: 25px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #63045e;
+    }
+}
+@media only screen and (max-width: 1600px) {
+    .fev__about__left {
+        height: 550px;
+    }
+    .fev__about__left h1 {
+        font-size: 2.5rem;
+    }
+    .fev__about__right {
+        height: 550px;
+    }
+    .about__content__1 {
+        margin: 30px;
+        line-height: 25px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #63045e;
+    }
+}
+@media only screen and (max-width: 1366px) {
+    .fev__about__left {
+        height: 450px;
+    }
+    .fev__about__left h1 {
+        font-size: 2rem;
+    }
+    .fev__about__right {
+        height: 450px;
+    }
+    .about__content__1 {
+        margin: 30px;
+        line-height: 25px;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-size: 15px;
+        font-weight: 400;
+        color: #63045e;
+    }
+    .fev__about__left:hover {
+        background-position: right;
+        letter-spacing: 1rem;
+    }
+}
