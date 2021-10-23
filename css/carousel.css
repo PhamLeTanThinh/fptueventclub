@@ -50,43 +50,17 @@
     z-index: 1;
 }
 
-/* Media Query for devices withi coarse pointers and no hover functionality */
-
-/* This will use a fallback image instead of a video for devices that commonly do not support the HTML5 video element */
-
-/* @media (pointer: coarse) and (hover: none) {
-    .fev__carousel {
-        background: url("./img/C0157.MP4") black no-repeat center center scroll;
-    }
-
-    .fev__carousel video {
-        display: none;
-    }
-} */
-
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1600px) {
     .fev__carousel h1 {
-        font-size: 30px;
+        font-size: 5rem;
         word-spacing: 3px;
         letter-spacing: 3px;
-    }
-    .fev__carousel p {
-        font-size: 18px;
-        word-spacing: 2px;
-        letter-spacing: 1px;
-    }
-}
-@media only screen and (max-width: 1024px) {
-    .fev__carousel h1 {
-        font-size: 3.5rem;
-        word-spacing: 2px;
-        letter-spacing: 2px;
         font-weight: bolder;
     }
     .fev__carousel p {
-        font-size: 1.3rem;
-        word-spacing: 0.5rem;
-        letter-spacing: 0.2rem;
+        font-size: 1.7rem;
+        word-spacing: 1rem;
+        letter-spacing: 0.5rem;
         font-weight: 500;
     }
 }
@@ -104,18 +78,31 @@
         font-weight: 500;
     }
 }
-
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 1024px) {
     .fev__carousel h1 {
-        font-size: 5rem;
-        word-spacing: 3px;
-        letter-spacing: 3px;
+        font-size: 3.5rem;
+        word-spacing: 2px;
+        letter-spacing: 2px;
         font-weight: bolder;
     }
     .fev__carousel p {
-        font-size: 1.7rem;
-        word-spacing: 1rem;
-        letter-spacing: 0.5rem;
+        font-size: 1.3rem;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.2rem;
         font-weight: 500;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fev__carousel h1 {
+        font-size: 30px;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+    }
+    .fev__carousel p {
+        font-size: 18px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
     }
 }

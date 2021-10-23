@@ -1,12 +1,13 @@
 .number__content {
-    padding: 70px 0;
+    padding: 50px 0;
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     margin: 0 auto;
+    opacity: 0.5;
 }
 .fev__number {
     width: 100%;
-    background-color: #cec7bb;
+    background-color: #1F1C2C;
     position: relative;
 }
 .fev__number .counter {
@@ -17,20 +18,9 @@
 }
 
 .fev__number .number__title {
-    color: #63045e;
+    color: #fff;
     font-size: 1.3rem;
 }
-
-
-@media only screen and (max-width: 600px) {
-    .number__content {
-        font-size: 2rem;
-    }
-    .number__title {
-        font-size: 11px
-    }
-}
-
 @media only screen and (max-width: 1600px) {
 
     .fev__number .counter {
@@ -44,6 +34,7 @@
     }
 }
 
+
 @media only screen and (max-width: 1366px) {
     .number__content {
         padding: 30px;
@@ -52,10 +43,18 @@
         font-size: 2rem;
     }
     .fev__number .number__title {
-        color: #63045e;
         font-size: 18px
     }
     .fev__number span {
         font-size: 2rem;
     }
 }
+@media only screen and (max-width: 600px) {
+    .number__content {
+        font-size: 2rem;
+    }
+    .number__title {
+        font-size: 11px
+    }
+}
+

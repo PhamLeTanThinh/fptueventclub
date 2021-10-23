@@ -185,50 +185,58 @@ article .item-content .author {
     
 }
 
-
-@media only screen and (max-width: 850px) {
+ @media only screen and (max-width: 1600px) {
     .fev__award .fev__award__content h1{
-        font-size: 2.5rem;
-    }
-    article{
-        height: 300px;
-        width: 350px;
-    }
-    article .item-content h1{
-        font-size: 2rem;
-    }
- }
- @media only screen and (max-width: 1024px) {
-    .fev__award .fev__award__content h1{
-        font-size: 2.5rem;
+        font-size: 3rem;
     }
     article{
         width: 28vw;
-        height: 33vw;
-    }
-    .fev__award .fev__award__content{
-        padding: 100px 0 50px 0;
+        height: 30vw;
     }
     article .item-content h1{
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
     .fev__award__list .owl-nav .owl-prev{
         transition: all .5s;
         position: relative;
         left: -50px;
-        bottom: 250px;
+        bottom: 300px;
     
     }
     .fev__award__list .owl-nav .owl-next{
         transition: all .5s;
         position: relative;
         right: -50px;
-        bottom: 250px;
-    }
-    article .item-content .author {
-        font-size: 15px;
+        bottom: 300px;
     }
 }
+
+@media only screen and (max-width: 1400px) {
+    .fev__award .fev__award__content h1{
+        font-size: 3rem;
+    }
+    article{
+        width: 28vw;
+        height: 35vw;
+    }
+    article .item-content h1{
+        font-size: 2rem;
+    }
+    .fev__award__list .owl-nav .owl-prev{
+        transition: all .5s;
+        position: relative;
+        left: -50px;
+        bottom: 330px;
+    
+    }
+    .fev__award__list .owl-nav .owl-next{
+        transition: all .5s;
+        position: relative;
+        right: -50px;
+        bottom: 330px;
+    }
+}
+
 @media only screen and (max-width: 1366px) {
     .fev__award .fev__award__content h1{
         font-size: 2.5rem;
@@ -257,13 +265,62 @@ article .item-content .author {
         bottom: 280px;
     }
 }
-@media only screen and (max-width: 1400px) {
+
+ @media only screen and (max-width: 1024px) {
     .fev__award .fev__award__content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     article{
         width: 28vw;
-        height: 35vw;
+        height: 33vw;
+    }
+    .fev__award .fev__award__content{
+        padding: 100px 0 50px 0;
+    }
+    article .item-content h1{
+        font-size: 1.4rem;
+    }
+    .fev__award__list .owl-nav .owl-prev{
+        transition: all .5s;
+        position: relative;
+        left: -30px;
+        bottom: 250px;
+    
+    }
+    .fev__award__list .owl-nav .owl-next{
+        transition: all .5s;
+        position: relative;
+        right: -30px;
+        bottom: 250px;
+    }
+    article .item-content .author {
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 850px) {
+    .fev__award .fev__award__content h1{
+        font-size: 2.5rem;
+    }
+    article{
+        height: 300px;
+        width: 350px;
+    }
+    article .item-content h1{
+        font-size: 2rem;
+    }
+ }
+ @media only screen and (max-width: 414px) {
+    .fev__award .fev__award__content h1{
+        font-size: 2.5rem;
+    }
+    article{
+        height: 300px;
+        width: 350px;
     }
     article .item-content h1{
         font-size: 2rem;
@@ -271,25 +328,26 @@ article .item-content .author {
     .fev__award__list .owl-nav .owl-prev{
         transition: all .5s;
         position: relative;
-        left: -50px;
-        bottom: 330px;
+        left: -20px;
+        bottom: 220px;
     
     }
     .fev__award__list .owl-nav .owl-next{
         transition: all .5s;
         position: relative;
-        right: -50px;
-        bottom: 330px;
+        right: -20px;
+        bottom: 220px;
     }
-}
+ }
 
- @media only screen and (max-width: 1600px) {
+ @media only screen and (max-width: 375px) {
     .fev__award .fev__award__content h1{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
     article{
-        width: 28vw;
-        height: 30vw;
+        height: 320px;
+        width: 330px;
+        
     }
     article .item-content h1{
         font-size: 2rem;
@@ -297,17 +355,14 @@ article .item-content .author {
     .fev__award__list .owl-nav .owl-prev{
         transition: all .5s;
         position: relative;
-        left: -50px;
-        bottom: 300px;
+        left: -20px;
+        bottom: 220px;
     
     }
     .fev__award__list .owl-nav .owl-next{
         transition: all .5s;
         position: relative;
-        right: -50px;
-        bottom: 300px;
+        right: -20px;
+        bottom: 220px;
     }
-}
-
-
-
+ }

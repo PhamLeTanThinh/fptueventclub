@@ -45,10 +45,8 @@ window.onscroll = function (e) {
 
 
 // ---------------------ACTIVE HEADER--------------------
-// Get all buttons with class="btn" inside the container
-var eachMenu = document.getElementsByClassName("fev__list");
 
-// Loop through the buttons and add the active class to the current/clicked button
+var eachMenu = document.getElementsByClassName("fev__list");
 for (var i = 0; i < eachMenu.length; i++) {
     eachMenu[i].addEventListener("click", function() {
     var current = document.getElementsByClassName("active");

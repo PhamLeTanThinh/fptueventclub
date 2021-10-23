@@ -10,16 +10,17 @@ footer {
 .hr__end {
     width: 20%;
     float: right;
-    border: solid 68px #63045e;
+    border: solid 68px #ff8b00;
     position: relative;
     bottom: 0;
     margin: 0;
 }
 .footer__tittle hr {
     width: 20%;
-    border: solid 100px #63045e;
+    border: solid 50px #ff8b00;
     position: relative;
     top: 100px;
+    opacity: 50%;
 }
 .footer__tittle h1 {
     text-align: center;
@@ -28,6 +29,7 @@ footer {
 }
 .site-footer .footer__content {
     margin-top: 100px;
+    background-color: #1F1C2C;
 }
 .site-footer .footer__content .text-justify {
     font-size: 30px;
@@ -39,14 +41,14 @@ footer {
     /* padding-right: 100px; */
 }
 .site-footer {
-    background-color: #111;
+    background-color: #1F1C2C;
     padding: 45px 0 20px;
     font-size: 15px;
     line-height: 24px;
     color: #737373;
 }
 .site-footer hr {
-    border-top: 3px solid #63045e;
+    border-top: 3px solid #ff8b00;
     opacity: 0.5;
 }
 .site-footer hr.small {
@@ -141,7 +143,7 @@ footer {
 }
 
 #social.socialDark {
-    background: #111;
+    background: #1F1C2C;
 }
 #social.socialDark:hover a {
     opacity: 0.5;
@@ -180,7 +182,7 @@ footer {
     .hr__end {
         width: 20%;
         float: right;
-        border: solid 30px #63045e;
+        border: solid 30px #ff8b00;
         position: relative;
         bottom: 0;
         margin: 0;
@@ -206,14 +208,14 @@ footer {
     }
     .footer__tittle hr {
         width: 20%;
-        border: solid 20px #63045e;
+        border: solid 20px #ff8b00;
         position: relative;
         top: 100px;
     }
     .hr__end {
         width: 20%;
         float: right;
-        border: solid 30px #63045e;
+        border: solid 30px #ff8b00;
         position: relative;
         bottom: 0;
         margin: 0;
@@ -243,14 +245,14 @@ footer {
     }
     .footer__tittle hr {
         width: 20%;
-        border: solid 20px #63045e;
+        border: solid 20px #ff8b00;
         position: relative;
         top: 100px;
     }
     .hr__end {
         width: 20%;
         float: right;
-        border: solid 30px #63045e;
+        border: solid 30px #ff8b00;
         position: relative;
         bottom: 0;
         margin: 0;
@@ -281,14 +283,14 @@ footer {
     }
     .footer__tittle hr {
         width: 20%;
-        border: solid 20px #63045e;
+        border: solid 20px #ff8b00;
         position: relative;
         top: 100px;
     }
     .hr__end {
         width: 20%;
         float: right;
-        border: solid 30px #63045e;
+        border: solid 30px #ff8b00;
         position: relative;
         bottom: 0;
         margin: 0;
@@ -310,14 +312,13 @@ footer {
     .hr__end {
         width: 20%;
         float: right;
-        border: solid 2px #63045e;
         position: relative;
         bottom: 0;
         margin: 0;
+        display: none;
     }
     .footer__tittle hr {
         width: 20%;
-        border: solid 3px #63045e;
         position: relative;
         top: 100px;
     }
@@ -329,3 +330,26 @@ footer {
         color: white;
     }
 }
+@media only screen and (max-width: 414px) {
+    footer {
+        /* height: 736px; */
+        width: 100%;
+    }
+    .footer__tittle h1 {
+        text-align: center;
+        color: #fff;
+        font-size: 2.8rem;
+    }
+
+    .footer-links li {
+        display: block;
+        font-size: 1rem;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: white;
+    }
+    .hr__end{
+        display: none;
+    }
+}
+

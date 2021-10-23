@@ -27,6 +27,21 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 		// 	centeredSlides: false,
 
 		// },
+		300: {
+			slidesPerView: 2,
+			spaceBetween: 25,
+			centeredSlides: true,
+		},
+		375: {
+			slidesPerView: 2,
+			spaceBetween: 35,
+			centeredSlides: true,
+		},
+		768: {
+			slidesPerView: 2,
+			spaceBetween: 30,
+			centeredSlides: true,
+		},
 		850: {
 			slidesPerView: 3,
 			spaceBetween: 0,
@@ -46,15 +61,15 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 		},
 		1400: {
 			slidesPerView: 2,
-			spaceBetween: 1,
+			spaceBetween: 2,
 		},
 		1440: {
 			slidesPerView: 2,
-			spaceBetween: 1,
+			spaceBetween: 3,
 		},
 		1600: {
 			slidesPerView: 2,
-			spaceBetween: 4,
+			spaceBetween: 5,
 		},
 		1680: {
 			slidesPerView: 2,
