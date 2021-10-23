@@ -117,6 +117,7 @@
     width: 250px !important;
     height: 330px;
     position: relative;
+    margin: 100px 0;
 }
 .gallery-thumbs .swiper-slide img {
     filter: contrast(0.5) blur(1px);
@@ -301,6 +302,19 @@
         width: 1300px  !important;;
         height: 220px;
      }
+     .testimonial-section .quote p{
+        padding-right: 100px;
+    } 
+    .testimonial-section .designation{
+        padding-bottom: 50px;
+    } 
+    .spacer{
+        height: auto;
+    }
+    .testimonial-section .user-saying {
+        height: 800px;
+        width: auto;
+    }
  }
   @media only screen and (max-width: 1400px) {
     .gallery-thumbs .swiper-slide{
@@ -377,6 +391,16 @@
     .testimonial-section .quote .quote-icon{
         width: 30px;
     }
+    .testimonial-section .quote .designation{
+        padding-bottom: 30px;
+    } 
+    .spacer{
+        height: auto;
+    }
+    .testimonial-section .user-saying {
+        height: auto;
+        width: auto;
+    }
  }
  @media only screen and (max-width: 768px) {
     .gallery-thumbs .swiper-slide{
@@ -399,8 +423,14 @@
     .testimonial-section .quote .quote-icon{
         width: 30px;
     }
+    .testimonial-section .quote .designation{
+        padding-bottom: 30px;
+    } 
     .spacer{
-        height: 650px;
+        height: auto;
+    }
+    .testimonial-section .user-saying {
+        height: auto;
     }
  }
  @media only screen and (max-width: 414px) {
@@ -420,13 +450,23 @@
         line-height: 23px;
         font-style: italic;
         margin: 0;
+        width: 400px;
+        margin-bottom: 10px
+;
     }
     .testimonial-section .quote .quote-icon{
         width: 30px;
     }
+    .testimonial-section .quote .designation{
+        padding-bottom: 30px;
+    } 
     .spacer{
-        height: 650px;
+        height: auto;
     }
+    .testimonial-section .user-saying {
+        height: auto;
+    }
+
  }
  @media only screen and (max-width: 375px) {
     .gallery-thumbs .swiper-slide{
@@ -445,12 +485,16 @@
         line-height: 23px;
         font-style: italic;
         margin: 0;
+        margin-bottom: 10px
     }
     .testimonial-section .quote .quote-icon{
         width: 30px;
     }
     .spacer{
-        height: 650px;
+        height: auto;
+    }
+    .testimonial-section .user-saying {
+        height: auto;
     }
  }
  @media only screen and (max-width: 320px) {
@@ -470,11 +514,18 @@
         line-height: 23px;
         font-style: italic;
         margin: 0;
+        margin-bottom: 10px
     }
     .testimonial-section .quote .quote-icon{
         width: 30px;
     }
+    .testimonial-section .quote .designation{
+        padding-bottom: 30px;
+    } 
     .spacer{
-        height: 650px;
+        height: auto;
+    }
+    .testimonial-section .user-saying {
+        height: auto;
     }
  }

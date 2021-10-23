@@ -7,6 +7,10 @@ var galleryThumbs = new Swiper('.gallery-thumbs', {
 	grabCursor: true,
 	slidesPerView: '3',
 	centeredSlides: true,
+	autoplay: {
+		delay: 3000,
+		pauseOnMouseEnter:true,
+	},
 
 	coverflowEffect: {
 		rotate: 50,
@@ -90,7 +94,6 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 	spaceBetween: 50,
 	autoplay: {
 		delay: 3000,
-		disableOnInteraction: false,
 	},
 	direction: 'vertical',
 	pagination: {
@@ -102,3 +105,4 @@ var galleryTop = new Swiper('.swiper-container.testimonial', {
 		swiper: galleryThumbs
 	}
 });
+
