@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function () {
     $(this).scrollTop(0);
 });
 // ---------------AOS--------------------
@@ -22,7 +22,7 @@ lightbox.option({
 
 // ---------------FADED HEADER--------------------
 window.onscroll = function (e) {
-    var otherScrollTop = document.documentElement.scrollTop; 
+    var otherScrollTop = document.documentElement.scrollTop;
 
     if (otherScrollTop < 50) {
         document.getElementById("fev__header").style.opacity = "0";
@@ -48,12 +48,10 @@ window.onscroll = function (e) {
 
 var eachMenu = document.getElementsByClassName("fev__list");
 for (var i = 0; i < eachMenu.length; i++) {
-    eachMenu[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
+    eachMenu[i].addEventListener("click", function () {
+        var current = document.getElementsByClassName("active");
+        current[0].className = current[0].className.replace(" active", "");
+        this.className += " active";
+    });
 }
-
-
 
