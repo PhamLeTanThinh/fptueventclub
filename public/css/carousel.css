@@ -1,0 +1,108 @@
+.fev__carousel {
+    position: relative;
+    background-color: black;
+    height: 100vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.fev__carousel h1 {
+    font-size: 6rem;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+}
+.fev__carousel p {
+    font-size: 2rem;
+    word-spacing: 1rem;
+    letter-spacing: 0.5rem;
+    font-weight: 500;
+}
+.fev__carousel video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.fev__carousel .container {
+    position: relative;
+    z-index: 2;
+}
+
+.fev__carousel .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+@media only screen and (max-width: 1600px) {
+    .fev__carousel h1 {
+        font-size: 5rem;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+        font-weight: bolder;
+    }
+    .fev__carousel p {
+        font-size: 1.7rem;
+        word-spacing: 1rem;
+        letter-spacing: 0.5rem;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 1360px) {
+    .fev__carousel h1 {
+        font-size: 4rem;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+    .fev__carousel p {
+        font-size: 1.5rem;
+        word-spacing: 1rem;
+        letter-spacing: 0.3rem;
+        font-weight: 500;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .fev__carousel h1 {
+        font-size: 3.5rem;
+        word-spacing: 2px;
+        letter-spacing: 2px;
+        font-weight: bolder;
+    }
+    .fev__carousel p {
+        font-size: 1.3rem;
+        word-spacing: 0.5rem;
+        letter-spacing: 0.2rem;
+        font-weight: 500;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    .fev__carousel h1 {
+        font-size: 30px;
+        word-spacing: 3px;
+        letter-spacing: 3px;
+    }
+    .fev__carousel p {
+        font-size: 18px;
+        word-spacing: 2px;
+        letter-spacing: 1px;
+    }
+}

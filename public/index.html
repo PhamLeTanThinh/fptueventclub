@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>
+        FPTU EVENT CLUB
+    </title>
+    <link rel="shortcut icon" type="image/png" href="./img/icon/favicon.ico">
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;0,800;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+    <!-- light box -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.css"
+        integrity="sha512-Woz+DqWYJ51bpVk5Fv0yES/edIMXjj3Ynda+KWTIkGoynAMHrqTcDUQltbipuiaD5ymEo9520lyoVOo9jCQOCA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- font awsome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/brands.min.css">
+    <!-- Animate css link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://md-aqil.github.io/images/swiper.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.9/swiper-bundle.css" /> -->
+
+
+
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/carousel.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/number.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <link rel="stylesheet" href="./css/event.css">
+    <link rel="stylesheet" href="./css/feedback.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+</head>
+
+<body>
+
+
+
+
+    <!-- Loader -->
+    <div id="loader" class="loader">
+        <div class="box_section">
+            <div class="image_box">
+                <img src="./img/FEV Logo.png" alt="">
+            </div>
+            <div class="img_filter"></div>
+        </div>
+    </div>
+
+
+
+    <!-- chat facebook -->
+    <!-- Messenger Plugin chat Code -->
+    <div id="fb-root"></div>
+
+    <!-- Your Plugin chat code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+    </div>
+
+    <script>
+        var chatbox = document.getElementById('fb-customer-chat');
+        chatbox.setAttribute("page_id", "113615295461916");
+        chatbox.setAttribute("attribution", "biz_inbox");
+
+        window.fbAsyncInit = function () {
+            FB.init({
+                xfbml: true,
+                version: 'v12.0'
+            });
+        };
+
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!-- Header -->
+    <header id="fev__header">
+        <div class="header__content">
+            <div id="header__img" class="fev__logo">
+                <a href="#nha"><img src="./img/FEV Logo.png" alt=""></a>
+            </div>
+
+            <nav class="menu-wrapper">
+                <ul id="top-menu" class="menu">
+                    <li class="nhave"><a href="#nhave"><span>NHÀ VÊ</span></a></li>
+                    <li class="cunglam"><a href="#cunglam">CHÚNG MÌNH</a></li>
+                    <li class="sukien"><a href="#sukien">LÀM SỰ KIỆN</a></li>
+                    <li class="moinguoi"><a href="#moinguoi">CÙNG MỌI NGƯỜI</a></li>
+                    <li class="lamchung"><a href="#lamchung">LÀM CHUNG HÔNG?</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Carousel -->
+    <section id="nha" class="fev__carousel  animate__animated animate__fadeIn animate__delay-4s">
+        <div class="overlay"></div>
+        <!-- <video id="videoBG" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+            <source src="./img/background/fev.mp4" type="video/mp4">
+        </video> -->
+        <!-- <video loop autoplay controls="true" width='100%' height='100%' src='./img/background/fev.mp4' type='video/mp4'></video> -->
+        <video class="img-fluid" autoplay loop muted>
+            <source src="./img/background/fev3.mp4" type="video/mp4" />
+          </video>
+        <div id="prlx" class="container h-100">
+            <div class="d-flex h-100 text-center align-items-center">
+                <div class="w-100 text-white">
+                    <h1 class="display-3 animate__animated animate__fadeInUp animate__delay-4s">FPTU EVENT CLUB</h1>
+                    <p class="lead mb-0 animate__animated animate__fadeInUp animate__delay-5s">THE WAY WE WENT</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!----------------------------------ABOUT-------------------------------------->
+    <section id="nhave" class="nhave fev__about">
+        <h1 class="text-center" data-aos="fade-up" data-aos-delay="100">NHÀ VÊ</h1>
+        <div class="row fev__about__content">
+            <div class="col-md-6 col-12 fev__about__left" data-aos="fade-up" data-aos-delay="100">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about2.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about1.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about3.JPG" alt="Third slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about4.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about5.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about6.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item img-hover-zoom">
+                            <img class="img-lazyload d-block w-100" src="./img/img-about/about7.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6 col-12 fev__about__right" data-aos="fade-up" data-aos-delay="200">
+                <div class="">
+                    <div class="about__content__1">
+                        Hello các cậu! Chúng mình là Câu lạc bộ Tổ chức Sự kiện Trường Đại học FPT, là nơi tập hợp những
+                        bạn sinh viên có niềm đam mê yêu thích và sự nhiệt huyết với lĩnh vực Tổ chức sự kiện. Tại mái
+                        nhà FEV này, thành viên chúng mình được thỏa sức trải nghiệm và học hỏi thông qua việc tổ chức
+                        những sự kiện lớn nhỏ ở quy mô Câu lạc bộ, quy mô trường và cả những sự kiện bên ngoài. Nhờ cùng
+                        nhau tổ chức sự kiện mà tụi mình trở nên gắn kết bền chặt hơn. FEV còn được xem như một gia đình
+                        nhỏ - một ngôi nhà thứ hai trong khoảng thời gian đại học đáng nhớ của thành viên chúng mình.
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        </div>
+    </section>
+
+
+    <!----------------------------------NUMBER-------------------------------------->
+    <section class="fev__number ">
+        <div class="number__content container row">
+            <div class="number__items  p-1 col-md-3 " data-aos="fade-up" data-aos-delay="100">
+                <p class="counter d-inline ">54</p><span>+</span>
+                <p class="number__title">Dự án</p>
+            </div>
+            <div class="number__items p-1 col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <p class="counter d-inline">162</p><span>+</span>
+                <p class="number__title">Sự kiện đã thực hiện</p>
+            </div>
+            <div class="number__items p-1 col-md-3" data-aos="fade-up" data-aos-delay="300">
+                <p class="counter d-inline">9</p><span>+</span>
+                <p class="number__title">Năm hoạt động</p>
+            </div>
+            <div class="number__items p-1 col-md-3" data-aos="fade-up" data-aos-delay="400">
+                <p class="counter d-inline">234</p><span>+</span>
+                <p class="number__title">Thành viên</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!----------------------------------TIMELINE-------------------------------------->
+
+    <section id="cunglam" class="chungminh fev__timline">
+        <div class="section section-md py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center mx-auto">
+                        <div class="mt-5 mb-5">
+                            <h1 class="font-weight-bold" data-aos="fade-up" data-aos-delay="100">CHÚNG MÌNH</h1>
+                        </div>
+                    </div>
+                </div>
+                <!-- End of Title -->
+                <div class="row mt-4">
+                    <!-- Timeline -->
+                    <div class="timeline timeline-six px-3 px-sm-0">
+                        <!-- Timeline Item 1 -->
+                        <div class="row no-gutters">
+                            <div class="col-sm">
+                                <!--spacer-->
+                            </div>
+                            <!-- timeline item 1 center image & middle line -->
+                            <div class="col-sm-1 text-center flex-column d-none d-sm-flex" data-aos="fade-up">
+                                <div class="row h-50">
+                                    <div class="col"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                                <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-tertiary"
+                                        src="./img/FEV Logo.png" alt="avatar"></span>
+                                <div class="row h-50">
+                                    <div class="col middle-line"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                            </div>
+                            <!-- timeline profile card -->
+                            <div class="col-sm py-2" data-aos="fade-up-left">
+                                <div class="profile-card">
+                                    <div class="card shadow border-light">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Thành Lập - Phát triển</h5>
+                                            <h6 class="card-subtitle">- 2012 - 2021 -</h6>
+                                            <p class="card-text my-2">Chúng mình chính thức ra mắt vào ngày 22/06/2012 -
+                                                một ngày hè đầy nắng cùng thật nhiều ước mơ, hoài bão. Có lẽ vì thế mà
+                                                FEV chúng mình luôn mang một tinh thần rực lửa và cháy hết mình trong
+                                                các sự kiện. Trải qua 9 năm thành lập và phát triển, chúng mình tự hào
+                                                vì đã ngày một trưởng thành hơn cả về số lượng lẫn chất lượng. Nhà chúng
+                                                mình hiện đang có 234 thành viên và cứ mỗi năm sẽ chào đón thêm nhiều
+                                                mảnh ghép mới.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 2 -->
+                        <div class="row no-gutters">
+                            <!-- timeline profile card -->
+                            <div class="col-sm py-2" data-aos="fade-up-right">
+                                <div class="profile-card">
+                                    <div class="card shadow border-light">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Định hướng</h5>
+                                            <h6 class="card-subtitle">- The way we went -</h6>
+                                            <p class="card-text my-2">Chúng mình chọn con đường đi như thế nào?, “The
+                                                Way We Went” - đây không chỉ là slogan, không chỉ là dòng chữ trên
+                                                chiếc áo tím thân thương mà là một kim chỉ nam. Mỗi thành viên sẽ có một
+                                                con đường, một cuộc
+                                                hành trình riêng nhưng tất cả chúng mình đã giao nhau tại một điểm, đó
+                                                là FEV. Kể từ đây chúng
+                                                mình sẽ kề vai sát cánh, cùng nhau xây dựng và phát triển ngôi nhà thứ
+                                                hai. “The Way We Went”
+                                                luôn nhắc nhở chúng mình về sứ mệnh của mỗi thành viên đối với nhà Vê.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- timeline item 2 center image & middle line -->
+                            <div class="col-sm-1 text-center flex-column d-none d-sm-flex" data-aos="fade-up">
+                                <div class="row h-50">
+                                    <div class="col middle-line"></div>
+                                    <div class="col"> </div>
+                                </div>
+                                <span class="m-3 avatar-separator"><img
+                                        class="img-fluid organic-radius border-secondary" src="./img/FEV Logo.png"
+                                        alt="avatar"></span>
+                                <div class="row h-50">
+                                    <div class="col middle-line"></div>
+                                    <div class="col"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <!--spacer-->
+                            </div>
+                        </div>
+                        <!-- Timeline Item 3 -->
+                        <div class="row no-gutters">
+                            <div class="col-sm">
+                                <!--spacer-->
+                            </div>
+                            <!-- timeline item 3 center image & middle line -->
+                            <div class="col-sm-1 text-center flex-column d-none d-sm-flex" data-aos="fade-up">
+                                <div class="row h-50">
+                                    <div class="col middle-line"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                                <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-warning"
+                                        src="./img/FEV Logo.png" alt="avatar"></span>
+                                <div class="row h-50">
+                                    <div class="col middle-line"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                            </div>
+                            <!-- timeline profile card -->
+                            <div class="col-sm py-2" data-aos="fade-up-left">
+                                <div class="profile-card">
+                                    <div class="card shadow border-light">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Màu Tím</h5>
+                                            <h6 class="card-subtitle">- #63045E -</h6>
+                                            <p class="card-text my-2">Ngoài “Nhà Vê” thì chúng mình còn một tên gọi thân
+                                                thương khác, đó là “gia đình áo tím”. Trải qua thời gian cộng tác viên
+                                                thì chúng mình sẽ được chính thức khoác trên mình chiếc áo tím, đánh dấu
+                                                một cột mốc vô cùng quan trọng. Màu áo tím tượng trưng cho sự đoàn kết,
+                                                chung thủy, thể hiện đúng “tinh thần FEV”. Chính vì thế, FEV Day (thứ 4
+                                                hàng tuần) thì chúng mình sẽ mặc áo tím - đây cũng là một nét đặc trưng
+                                                của FEV.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Timeline Item 4 -->
+                        <div class="row no-gutters">
+                            <!-- timeline profile card -->
+                            <div class="col-sm py-2" data-aos="fade-up-right">
+                                <div class="profile-card">
+                                    <div class="card shadow border-light">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Đặc sản nhà Vê</h5>
+                                            <h6 class="card-subtitle">- Đi và chạy -</h6>
+                                            <p class="card-text my-2">Chúng mình có những đặc sản riêng của nhà Vê,
+                                                những đặc sản có 1-0-2 chỉ thành viên FEV-ers mới có dịp thưởng thức.
+                                                Đầu tiên phải nhắc đến những chuyến “Team building” xuyên rừng vượt núi
+                                                đều đặn mỗi kỳ, đây là dịp để chúng mình xích lại gần nhau hơn, tăng
+                                                tinh thần đoàn kết cũng như tiếp thêm ngọn lửa nhiệt huyết cho mỗi thành
+                                                viên.
+                                                Ngoài Teambuilding, chúng mình còn một đặc sản khác đó chính là sự kiện
+                                                FPTU First Step, dành riêng cho các bạn tân sinh viên. Sự kiện này ghi
+                                                dấu bước chân đầu tiên của các bạn tân binh trên giảng đường đại học.
+                                                Ngoài ra FEV chúng mình còn có những sự kiện thường niên nổi bật như
+                                                Water Rocket, Xuân Ấm Áp, Trung Thu Ấm Áp, Khoảnh Khắc Ngày Xuân, FEV
+                                                Tiếp sức mùa thi, Tất niên, Go Mountain Up, ConFti, FPT’s Voice,...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- timeline item 4 center image & middle line -->
+                            <div class="col-sm-1 text-center flex-column d-none d-sm-flex" data-aos="fade-up">
+                                <div class="row h-50">
+                                    <div class="col middle-line"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                                <span class="m-3 avatar-separator"><img class="img-fluid organic-radius border-info"
+                                        src="./img/FEV Logo.png" alt="avatar"></span>
+                                <div class="row h-50">
+                                    <div class="col"> </div>
+                                    <div class="col"> </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <!--spacer-->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of Timeline -->
+                </div>
+            </div>
+            <!-- Title  -->
+
+        </div>
+
+
+    </section>
+
+    <!----------------------------------------SU KIEN-------------------------------->
+
+    <section id="sukien" class="fev__award  ">
+
+        <div class="fev__award__content" data-aos="fade-up">
+            <h1 data-aos="fade-up" data-aos-delay="100">SỰ KIỆN NHÀ VÊ</h1>
+        </div>
+        <div class="overlay"></div>
+        <div class="fev__award__list owl-carousel owl-theme pb-5">
+
+
+            <!-- first step -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/firststep.jpg" data-lightbox="award" data-title="FPTU First Step - lấy ý tưởng từ 'Running Man', một sự kiện chỉ dành riêng cho sinh viên khóa mới, được tổ chức mỗi năm 1 lần,
+                    đúng như cái tên 'Bước đi đầu tiên' sự kiện đem lại cho tân sinh viên những trải nghiệm đầu tiên của môi trường đại học, thông qua những thử thách
+                    các TSV sẽ có được những 'Bước đi' vững chắc hơn trên con đường đại học sắp tới. Đến nay FPU FIRST STEP đã trải qua 6 mùa và sẽ còn nhiều hơn nữa.
+                    ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/firststep1.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FPTU FIRST STEP</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "GROWING"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- talkshow -->
+            <div data-aos="fade-up" data-aos-delay="300">
+                <a href="./img/image-event/talkshow1.png" data-lightbox="award" data-title="Năm nhất đại học - một cột mốc đặc biệt, là khoảng thời gian các bạn tân sinh viên bước vào một hành 
+                trình mới với vô vàn những điều thú vị. Thay đổi môi trường học tập, gặp gỡ những người bạn mới, đối diện với những tình huống có 1-0-2...
+                 Tân sinh viên sẽ vượt qua tất tần tật những điều đó như thế nào">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/talkshow.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FPT-ALK</h1>
+                                <p>Sự kiện online/p>
+                                <div class="author">Chủ đề: "Năm nhất sao cho chất"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- Tân niên -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/tannien1.jpg" data-lightbox="award" data-title="
+                    Cuối năm 2020, đã có nhiêu sự kiện của FEV bị hoãn do ảnh hưởng của covid-19, FEV tất niên 2020 bị hoãn và đầu năm 2021 FEV Tân niên lần đầu tiên
+                    được tổ chức. Với sự góp mặt của đông đảo thành viên nhà V trải dài các khóa đã đem lại một đêm Tân niên ấm áp, chủ đề 'Chấm' - như nói lên sự kết thúc của
+                    năm củ và mở ra một năm mới đầy thử thách và hứa hẹn.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/tannien.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>TÂN NIÊN</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Chấm"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <!-- fcamp -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/fcamp1.jpg" data-lightbox="award" data-title="
+                            Để chào chón các bạn tân sinh viên đến với trường ĐH FPT, 
+                            FEV vinh dự tổ chức ngày hội lớn nhất năm - FCamp. 
+                            Diễn ra vào kỳ Fall 2020 với sự tham gia của hơn 500 sinh viên khóa mới 
+                            cùng nhiều nghệ sĩ khách mời nổi tiếng. Sự kiện đã để lại nhiều khoảnh
+                             khắc tuyệt vời, những người bạn mới và kỉ niệm về những ngày đầu 
+                             tiên đến với môi trường mới tràn đầy nhiệt huyết và niềm vui mà 
+                             chắc hẳn là vô cùng đáng nhớ trong lòng các tân sinh viên trường F.
+                            ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/Fcacmp1.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>F-CAMP</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "ILUMINATION"</div>
+                            </div>
+                        </div>
+
+                    </article>
+
+                </a>
+            </div>
+            <!-- fev Noi Thuong -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/lol.jpg" data-lightbox="award" data-title="
+                    Diễn ra vào kỳ Fall 2021, FEV Nội Thương là mùa 3 của FEV OPEN CUP, một sự kiện về giải đấu của tựa
+                    game 'Liên minh huyền thoại', sự kiện đem lại cho nhà V những khoảng khắc gần gủi bên nhau mặc dù các trở ngại do đại dịch gây ra.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/lol.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV Nội Thương</h1>
+                                <p>Sự kiện nội bộ</p>
+                                <div class="author">Chủ đề: "Tan nhà nát cửa"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- F-Voice -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/fvoice1.jpg" data-lightbox="award" data-title="
+                Hiểu được tầm quan trọng của tiếng Anh, 
+                khoa ngôn ngữ Anh đã kết hợp cùng câu lạc bộ Tổ chức sự kiện trường ĐH FPT TP.HCM (FEV) 
+                tạo nên cuộc thi FPT’S Voice   để khuyến khích và tôn vinh các sinh viên có niềm yêu thích 
+                với ngôn ngữ này. Các sinh viên có điều kiện được thể hiện khả năng sử dụng tiếng Anh qua 
+                nhiều hình thức tùy vào chủ đề của mỗi mùa như hát, kế chuyện,...Qua những nhận xét, 
+                đóng góp từ các giảng viên kì cựu, dày dặn kinh nghiệm cùng những chia sẻ chân thành 
+                chắc chắn sẽ truyền cảm hứng và thuyết phục các bạn thí sinh tham gia. Dù khả năng của 
+                các bạn sinh viên đến đâu chỉ cần có niềm yêu thích, mục đích của cuộc thi là trở thành 
+                nơi giúp bạn được học hỏi thêm nhiều điều hay. có thêm những người bạn mới và phần thưởng 
+                đáng mong đợi. Đó cũng là lý do mà FVoice nhận được rất nhiều sự tham gia, yêu thích từ 
+                các bạn sinh viên FPT.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/fvoice.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FPT Voice</h1>
+                                <p>Sự kiện thường kỳ</p>
+                                <div class="author">Chủ đề: BOOK REVIEW COMPETITION “READ – REVIEW - RECORD”...</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- tiktok -->
+            <div data-aos="fade-up" data-aos-delay="300">
+                <a href="./img/image-event/tiktok.jpg" data-lightbox="award" data-title="
+                    FEV Tiktok - một sự kiện nội bộ của nhà Vê, cuộc thi sáng tạo thông qua nền tảng xã hội tiktok. Với sự tham gia của
+                    đông đảo thành viên nhà V đã đem mọi người đến gần nhau hơn.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/tiktok.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - TikTok</h1>
+                                <p>Sự kiện nội bộ</p>
+                                <!-- <div class="author">Kayla Beck</div> -->
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- water Rocket -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/waterrocket1.JPG" data-lightbox="award" data-title="
+                Nhằm tạo sân chơi cho các bạn sinh viên đam mê khoa học và yêu thích sáng tạo,
+                 FEV tổ chức cuộc thi sáng tạo tên lửa nước cực kì thú vị.
+                  Là nơi các bạn được thỏa sức thể hiện khả năng tư duy,
+                   sự khéo tay và tinh thần đồng đội qua từng vòng thi với 
+                   sự hướng dẫn hỗ trợ hết mình từ BTC. Những chiếc tên lửa 
+                   nước bay cao nhất xa nhất sẽ đem về cho mình giải thưởng 
+                   vô cùng hấp dẫn và những màn trình diễn khiến mọi người phải 
+                   trầm trồ không thể rời mắt. Đến nay FEV Water Rocket đã trải qua
+                    x mùa và đã để lại ấn tượng lớn đối với các bạn sinh viên trường F
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/waterrocket.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>WATER ROCKET</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "ROCK UP".</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <!-- 48H movement -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/48h.jpg" data-lightbox="award" data-title="
+                Là một chương trình thường niên dành cho sinh viên trường đại học FPT, 
+                là một dịp để các bạn có thể tham gia trải nghiệm và khám phá những vùng đất mới lạ 
+                do nhà trường và CLB Tổ chức sự kiện (FEV) đồng tổ chức. Chuyến đi 2 ngày 1 đêm tại 
+                các địa điểm tham quan kỳ thú, các trò chơi, thử thách vui nhộn sẽ giúp các bạn phát 
+                triển những kỹ năng trong học tập và cuộc sống, nâng cao khả năng tư duy sáng tạo cũng 
+                như tạo sân chơi cho các bạn sinh viên có thể giao lưu - học hỏi với nhau.
+                 Bằng nhiệt huyết và sự hỗ trợ hết mình từ phía BTC 48 giờ chuyển động hứa hẹn 
+                 đem đến cho các bạn một chuyến đi trải nghiệm đáng nhớ nhất thời sinh viên.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/48h_1.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>48 HOURS MOVEMENT</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "VÙNG KÝ ỨC"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- Xuan Am Ap -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/xuanamap1.jpg" data-lightbox="award" data-title="
+                “Xuân Ấm Áp”- Sự kiện gây quỹ từ thiện thường niên của CLB Tổ chức sự kiện trường Đại học FPT (FEV), cơ sở TP. HCM.
+                Tiếp nối sự thành công của “Xuân Ấm Áp 2020”
+                 “Xuân Ấm Áp 2021” với chủ đề “XA” là một chuyến xe du xuân với tài xế chính là CLB FEV cùng những hành khách đồng hành với chương trình là CLB Bóng Đá trường Đại học FPT (FFC)
+                  và không ai khác chính là mọi người. Đích đến cuối cùng của chuyến xe trao gửi yêu thương này là những hoàn cảnh cơ nhỡ, 
+                  những người vô gia cư trên địa bàn TP.HCM với mong muốn giúp họ có một mùa xuân trọn vẹn, ấm no.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/xuanamap.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>XUÂN ẤM ÁP</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "XA"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+            <!--ConFti-->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/confi1.jpg" data-lightbox="award"
+                    data-title="ConFti - một cuộc thi đố vui có thưởng dưới hình thức trắc nghiệm dành cho các bạn sinh viên trường Đại học FPT TP HCM, đây là  sân chơi giúp cho các bạn giải trí sau những giờ học online và làm việc căng thẳng. Chương trình không chỉ mang đến cho bạn những kiến thức bổ ích mà còn có những phần thưởng giá trị vô cùng hấp dẫn ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/1ConFTi.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>CONFTI</h1>
+                                <p>Sự kiện online</p>
+                                <div class="author">Chủ đề: "10+ Steps to Glory"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- Go Mountain Up -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/gmu1.JPG" data-lightbox="award" data-title="
+                Một sự kiện đòi hỏi tinh thần dám nghĩ dám làm và một sức lực bền bỉ để 
+                chinh phục các ngọn núi. Với mục đích chính là giúp các thành viên nhà V có 
+                cơ hội rèn luyện thể lực, nhưng bên cạnh đó các bạn còn được trải nghiệm nhiều
+                 hơn thế như cảm giác cắm trại trên đỉnh núi mờ sương, cùng đốt lửa trại dưới bầu 
+                 trời sao,... Sau 4 kì tổ chức, sự kiện đã tạo nhiều cơ hội cho các thành viên
+                  khám phá được giới hạn bản thân, tạm gác mọi âu lo để tận hưởng không khí trong 
+                  lành hiếm có, thêm kỉ niệm, thêm gắn kết.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/gmu.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>GO MOUNTAIN UP</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Lên đỉnh tại sao không"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- Cartoon -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/cartoon.jpg" data-lightbox="award" data-title="
+                Cùng với việc đẩy mạnh hình thức tuyên truyền phòng, chống dịch COVID-19  qua hệ thống truyền thanh, tuyên truyền cổ động trực quan,
+                 lồng ghép với các sinh hoạt đoàn thể..., cuộc thi Cartoon Competition 😎 ra đời để tạo nên một sân chơi nghệ thuật trong mùa dịch căng thẳng.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/cartoon.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>CARTOON COMPETITION</h1>
+                                <p>Sự kiện online</p>
+                                <div class="author">Chủ đề: "GOOGLE MEET” - AVOIDS COVID</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- COVER CONTEST -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/covercontest.jpg" data-lightbox="award" data-title="
+                    Một sự kiện Online được tổ chức vào kỳ Summer 2021, FPTU COVER CONTEST với chủ đề “L'ESPOIR – Hi vọng, tin tưởng và mong chờ những điều tốt đẹp sẽ tới.” mang nội dung “nói hoặc không nói”. 
+                    Nơi người tham gia sẽ bày tỏ được nỗi lòng, cảm xúc cũng như tâm tư và tình cảm đối với người mình yêu thương,
+                     trân trọng đồng thời là nơi thể hiện tư duy sáng tạo và cá tính âm nhạc của bản thân.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/covercontest.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FPTU COVER CONTEST</h1>
+                                <p>Sự kiện online</p>
+                                <div class="author">Chủ đề: "L'espoir"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- khoảnh khắc ngày xuân -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/khoanhkhacngay xuan1.jpg" data-lightbox="award" data-title="
+                Khoảnh khắc ngày xuân là sân chơi giúp cho các bạn sinh viên, cán bộ nhân viên nhà trường thể hiện đam mê chụp ảnh cũng như khả năng sáng tạo
+                 để lưu giữ lại những khoảnh khắc và nét đẹp truyền thống về ngày tết của quê hương. Với chủ đề “Tình”, cuộc thi mang một ý nghĩa vô cùng đặc biệt trong dịp Tết đến Xuân về. 
+                 “Tình” - cung bậc cảm xúc con người, tuy là một khái niệm chung nhưng nó vẫn mang một nét gì đó rất riêng, riêng bởi tình cảm, cách nhìn nhận của mỗi người. 
+
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image"
+                                    style="background-image:url(./img/image-event/khoanhkhacngayxuan2021.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>KHOẢNH KHẮC NGÀY XUÂN</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Tình"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- WANTED2020 -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/wanted2020.jpg" data-lightbox="award" data-title="
+                    Sự kiện thường niên được tổ chức trong khu quân sự quân khu 7, FEV tổ chức trò chơi lớn wanted cho các bạn CTV của nhà V
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/wanted2020.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV- WANTED 2020</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "WANTED"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- WANTED2021 -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/wanted2021_1.jpg" data-lightbox="award" data-title="
+                Trong bối cảnh dịch bệnh đang bùng phát nặng nề, hằng ngày biết bao sinh mệnh đã bị đánh cắp, đảo lộn hoàn toàn cuộc sống của con người, 
+                 bởi loại virus cực mạnh và chưa có ý định ngừng biến thể mà tên NHÀ BÁC HỌC ĐIÊN tạo ra tại phòng thí nghiệm bí mật của hắn ⚠.
+                Tiếp nối sự thành công của mùa trước, FEV Wanted với chủ đề “Threats 20.” đã tạo nên một đêm ý nghĩa cho cả thành viên và CTV nhà V.
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/wanted.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - WANTED 2021</h1>
+                                <p>Sự kiện online</p>
+                                <div class="author">Chủ đề: "20 THREATS"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- TBSPring -->
+            <div data-aos="fade-up" data-aos-delay="100">
+                <a href="./img/image-event/tbspring1.jpg" data-lightbox="award" data-title="
+                    Sau Teambuilding chào đón khóa mới, FEV tổ chức Teambuilding Spring với motif trải nghiệm,
+                    các thành viên tham gia sẽ được trải nghiệm qua nhiều thử thách của của BTC chương trình. 
+                    Thông qua đó, các thành viên cũng học hỏi thêm được nhiều kĩ năng mềm.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/tbspring.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>TEAMBUILDING SPRING</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "SUNFLOWER"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- TB khóa mới -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/TBK16.jpg" data-lightbox="award" data-title="[𝐅𝐄𝐕 - 𝐓𝐞𝐚𝐦𝐛𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐊𝟏𝟔]
+                Teambuilding dành riêng cho khóa mới là một sự kiện thường niên của đại gia đình FEV, mỗi năm sẽ mang một màu sắc riêng biệt. Teambuilding K16 năm nay trở lại cùng chủ đề A STAR IS BORN với rất nhiều ý nghĩa đặc biệt.
+                A star is born - Hiểu đơn giản, nghĩa là một ngôi sao được sinh ra, lớn mạnh theo một cách riêng. Mỗi ngôi sao - một câu chuyện - một màu sắc riêng cho mình.
+                A star is born - Mỗi ngôi sao mang tính cách và tài năng khác nhau và được thoải mái phát huy những thế mạnh, sở trường của mình
+                A star is born - Những ngôi sao sáng hơn, mạnh mẽ hơn và sẽ cùng nhau tạo nên “bầu trời” tràn đầy sự nhiệt huyết và tình yêu dành cho FEV.
+                
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/TBKhoaMoi.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>Teambuilding dành cho khóa mới</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Star is born"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- TB sinh nhật 8 -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/tbsn8_1.jpg" data-lightbox="award" data-title="TOGETHER WE CAN CHANGE THE WORLD 
+                TOGETHER hiểu đơn giản, nghĩa là cùng nhau, có nhau và cần nhau. 8 năm - một hành trình tuy không quá dài nhưng lại là khoảng thời gian đủ lớn mà chúng ta đã đi qua. Năm 2020 đánh dấu chặng đường 8 năm kể từ khi FEV được thành lập, cũng là ngần ấy thời gian mà chúng ta đã cùng nhau trải qua biết bao chuyện vui buồn.
+                FEV - đứa con tinh thần được nuôi dưỡng bằng tất cả sự chân thành, lòng nhiệt huyết và niềm yêu thương của rất nhiều thế hệ thành viên đã và đang cho ra thành quả là những “trái ngọt” xứng đáng với nỗ lực của tất cả chúng ta
+               
+                
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/tbsn8.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>Teambuilding Sinh Nhật</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "8 years together"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- TB Fall -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/TB-Fall.jpg" data-lightbox="award" data-title="Teambuilding Fall - Teambuilding Fall là sự kiện thường niên của đại gia đình nhà Vê mỗi khi kết thúc kỳ học cuối năm. Đây là một hành trình trải nghiệm hai ngày một đêm cực kỳ thú vị. Mặc dù được tổ chức hằng năm nhưng Teambuilding Fall luôn tạo sự hào hứng cho mọi người vì mỗi năm đều có một chủ đề riêng, mỗi chủ đề đều thú vị và phù hợp với tâm lý muốn thư giãn của thành viên sau một năm học tập vất vả.
+                
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/TB-Fall.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>Teambuilding kỳ Fall</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">2020 - Cách HCM 150Km</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV-Phát nước -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <a href="./img/image-event/FEV-Phat-Nuoc.jpg" data-lightbox="award" data-title="FEV Phát nước là một sự kiện được thực hiện bởi Câu lạc bộ Tổ chức sự kiện Đại học FPT. Vào những ngày đầu nhập học nắng nóng, các thành viên FEV đã siêu tâm lý chuẩn bị những ly nước mát lành cho tất cả các bạn tân sinh viên. Quầy nước FEV được đặt tại những vị trí đắc địa của trường nhằm tiếp cận được với nhiều bạn sinh viên. Sự kiện này được thực hiện để ủng hộ tinh thần và đem lại cảm giác thân thiện cho các bạn tân sinh viên tại ngôi nhà mới FPT này. 
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/FEV-Phat-Nuoc.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Phát nước tiếp sức tân sinh viên</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">2020 - Đại học FPT campus HCM</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV-It's showtime -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/Its-Showtime-1.png" data-lightbox="award" data-title="It's showtime - Một sự kiện được tổ chức bởi FEV và FStyle, Cuộc thi nhảy dành cho sinh viên trường Đại học FPT.
+                - Đây là một cuộc thi tạo ra một sân chơi mới, một môi trường giải trí lành mạnh, năng động nhưng vẫn mang đến và giữ tính chuyên môn cho các bạn có đam mê và sở thích liên quan đến nhảy.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/Its-Showtime-1.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>It's Showtime</h1>
+                                <p>Sự kiện mới</p>
+                                <div class="author">Chủ đề: "NO SHY - MAKE HIGHLIGHT"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV-Dictionary -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/FEV-Dictionary-1.jpg" data-lightbox="award" data-title="FEV dictionary - Một quyển từ điển về các từ ngữ đặc trưng của FEV được đăng tải tại trang FPT Event Club - The Way We Went. Các từ ngữ đặc biệt chỉ có ở FEV sẽ được giải thích tận tình ở FEV Dictionary này. Nhằm giúp các bạn sinh viên quan tâm đến FEV sẽ dễ dàng hơn trong việc tìm hiểu về Câu lạc bộ. Bên cạnh đó, FEV Dictionary cũng góp phần quảng bá Câu lạc bộ đến các bạn Tân sinh viên mỗi dịp khóa mới vào.
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image"
+                                    style="background-image:url(./img/image-event/FEV-Dictionary.jpg.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Dictionary</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">2021 - Fanpage FPT Event Club</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV-OpenCup -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/opencup-1.jpg" data-lightbox="award" data-title="OPEN CUP CHAMPIONSHIP - Một giải đấu dành cho thành viên FEV mang trong mình ngọn lửa đam mê bất tận với bộ môn Thể thao điện tử Liên Minh Huyền Thoại. Sự kiện được tổ chức nhằm mục đích tạo cơ hội cho các thành viên cùng sở thích có thể giao lưu, thi đấu với nhau. Với thể lệ thú vị, phần quà hấp dẫn và dàn Ban tổ chức chuyên nghiệp đã thu hút nhiều sự quan tâm của thành viên FEV và cả cộng đồng sinh viên FPTU.
+
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/opencup.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - OPEN CUP CHAMPIONSHIP</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">2017 - FPTU Event Club</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV-Trung thu ấm áp -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/TrungThuAmAp-1.jpg" data-lightbox="award" data-title="Trung Thu Ấm Áp - Chuỗi chương trình từ thiện, hành trình trao tặng những suất quà ý nghĩa và mang đậm nét truyền thống của Tết Trung thu đoàn viên. Vào mùa trăng rằm hằng năm, FEV đều sẽ tổ chức một chương trình thiện nguyện để mang đến một Tết Trung thu ấm áp và ý nghĩa cho những bạn nhỏ kém may mắn, giúp các bạn nhỏ cảm nhận được sự sẻ chia. Một chút yêu thương trao đi đổi lại là một nụ cười hạnh phúc. 
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/TrungThuAmAp.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Trung thu ấm áp</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Lễ hội trăng rằm"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV - Got Talent 2017 -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/gotTalent-1.jpg" data-lightbox="award" data-title="Với mục đích đáp ứng nhu cầu của lượng lớn các bạn sinh viên trẻ quan tâm tới việc phát triển tài năng,
+                viên nam châm mang tên “FPTU GOT TALENT” được tổ chức, Là cuộc thi tài năng do F# và FPT Event Club phối hợp thực hiện - món quà thường niên dành riêng cho các bạn tân sinh viên
+                 đã đạt được sự thu hút đông đảo sự quan tâm không chỉ của các bạn sinh viên khóa mới, mà còn lan tỏa sức nóng tới toàn thể sinh viên trường Đại học FPT.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/gotTalent.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Got Talent 2017</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">Chủ đề: "Con đường khát vọng"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV - Club Day -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/Club-Day-FEV-1.jpg" data-lightbox="award" data-title="Club's day - Ngày hội dành cho các Câu lạc bộ trường Đại học FPT được giao lưu với nhau qua các điệu nhảy, các hoạt động vui chơi. FEV cũng góp mặt với gian hàng nước uống mát lành, các điệu nhảy flashmob sôi động và đặc biệt là Quyền trái bí truyền thống độc đáo của Câu lạc bộ. Trong ngày hội này, FEV đã xuất sắc xác lập kỷ lục là Câu lạc bộ có thành viên tham gia đông nhất.
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/Club-Day-FEV.jpg);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Club's Day</h1>
+                                <p>Sự kiện thường niên</p>
+                                <div class="author">2019 - FPTU HCM</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+
+            <!-- FEV - Show nhac blue -->
+            <div data-aos="fade-up" data-aos-delay="200">
+                <!-- có -1 là hình bên trong -->
+                <a href="./img/image-event/Blue-1.jpg" data-lightbox="award" data-title="Show nhạc Blue - Một đêm nhạc từ thiện nhằm gây quỹ để tổ chức chương trình Trung Thu Ấm Áp cho các em nhỏ tại Trung tâm Nuôi dưỡng và Bảo Trợ Trẻ em Gò Vấp. Với sự góp mặt của các ban nhạc, các giọng ca tài năng và đông đảo sinh viên FPTU đã mang đến những giai điệu ấm áp cho ngày Tết Trung Thu. Sự kiện đã để lại nhiều khoảnh khắc tuyệt vời, tất cả mọi người cùng nhau hát lên những lời ca ý nghĩa đầy yêu thương. 
+
+                ">
+                    <article>
+                        <div class="item-wrapper">
+                            <figure>
+                                <div class="image" style="background-image:url(./img/image-event/Blue.png);">
+                                </div>
+                                <div class="lighting"></div>
+                            </figure>
+                            <div class="item-content">
+                                <h1>FEV - Show nhạc Blue</h1>
+                                <p>Sự kiện gây quỹ cho Trung thu ấm áp</p>
+                                <div class="author">Chủ đề: "BLUE"</div>
+                            </div>
+                        </div>
+                    </article>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!---------------------------FEEDBACK TESTIM----------------------------------->
+    <section id="moinguoi" class="spacer">
+        <div class="testimonial-section row">
+            <div class="testi-user-img col-xl-5 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="100">
+                <div class="swiper-container gallery-thumbs">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img class="u4 img-lazyload" src="./img/img-tesim/cô Lê Hà Vân.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="u1 img-lazyload" src="./img/img-tesim/chị Hồ Thúy Hằng.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="u2 img-lazyload" src="./img/img-tesim/hau.jpg" alt="">
+                        </div>
+
+                        <div class="swiper-slide">
+                            <img class="u4 img-lazyload" src="./img/img-tesim/Lý Phước Sang.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="u3 img-lazyload" src="./img/img-tesim/Anh Le Phuc Thinh.jpg" alt="">
+                        </div>
+                        <div class="swiper-slide">
+                            <img class="u3 img-lazyload" src="./img/img-tesim/Chị Én.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-saying col-xl-7 col-sm-12 col-12" data-aos="fade-up" data-aos-delay="200">
+                <div class="swiper-container testimonial">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper ">
+                        <!-- Slides -->
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon " src="https://md-aqil.github.io/images/quote.png" alt="">
+                                <p>
+                                    “Một Câu lạc bộ đứng đằng sau cánh gà nhiều, làm việc thầm lặng, có thể không nhiều người nhìn
+                                    thấy nhưng vì cô nhìn thấy sự vất vả của các em trước và sau mỗi sự kiện nên cô cũng
+                                    luôn cố gắng để hỗ trợ các em tốt nhất trong khả năng của cô. Cảm ơn FEV đã đồng
+                                    hành cùng các sự kiện của cô và bộ Môn tiếng Anh.“
+                                </p>
+                                <div class="name">- Cô Lê Hà Vân -</div>
+                                <div class="designation">Giảng viên Ngành Ngôn ngữ anh</div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                                <p>
+                                    “FEV trong chị là tình thương mến thương, là sự gắn kết và dù có đi đâu cũng luôn
+                                    nhớ
+                                    về nhau, về những kỷ niệm đáng yêu thật khó quên.“
+                                </p>
+                                <div class="name">- Chị Hồ Thúy Hằng -</div>
+                                <div class="designation">Cựu Mentor Câu lạc bộ</div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                                <p>
+                                    “FEV trong chị là 1 Câu lạc bộ năng động, sáng tạo, nhiệt huyết, không ngại khó khăn vất
+                                    vả và luôn cháy hết mình với các sự kiện... và cuối cùng là chị rất rất tự hào về
+                                    FEV.“
+                                </p>
+                                <div class="name">- Chị Nguyễn Thị Hậu -</div>
+                                <div class="designation">Mentor Câu lạc bộ</div>
+
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon" src="https://md-aqil.github.io/images/quote.png" alt="">
+
+                                <p>
+                                    “FEV mang lại giá trị tinh thần trong tôi rất lớn. Cả thời sinh viên gắn liền với
+                                    FEV, những chuyến đi team building trốn khỏi thành phố chật chội này, những lần thức
+                                    khuya dậy sớm để làm event và những người anh, người bạn, người em đầy cá tính riêng
+                                    mà mình may mắn được gặp. Cá nhân mình thì nhờ FEV mà rèn luyện được kha khá kĩ năng
+                                    mềm. Bạn nào may mắn thì còn tìm thấy nửa kia của mình ở FEV nữa nè, mình hy vọng
+                                    tinh thần FEV nhiệt huyết, sáng tạo, lầy lội, đoàn kết sẽ được truyền từ đời này
+                                    sang đời khác.“
+                                </p>
+                                <div class="name">- Anh Lý Phước Sang -</div>
+                                <div class="designation">Cựu Chủ Nhiệm</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon " src="https://md-aqil.github.io/images/quote.png" alt="">
+                                <p>
+                                    “FEV là chỗ dựa tinh thần, là một nơi có thể quay về mỗi khi mệt mỏi, stress trong
+                                    công việc, cuộc sống, Nhớ lắm những ngày chạy sự kiện cùng nhau, cùng nhau sáng tối
+                                    sấp mặt làm kế hoạch, nhiều khi quên cả ăn; cùng nhau thắt bút, papercraft cả ngày ở
+                                    trường, cùng nhau đi ăn thập cẩm sau mỗi sự kiện, cùng nhau vượt qua những trò chơi
+                                    lầy lội của BTC Teambuilding cùng nhau… hm... thật khó có thể kể hết những kỉ niệm
+                                    về nhau, về FEV. Dù đã trường rồi, dù sau này có như thế nào, tôi vẫn luôn tự hào:
+                                    FEV tôi này, cả thanh xuân của tôi nàyyyyyy.“
+                                </p>
+                                <div class="name">- Anh Lê Phúc Thịnh -</div>
+                                <div class="designation">Cựu Chủ Nhiệm</div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="quote">
+                                <img class="quote-icon " src="https://md-aqil.github.io/images/quote.png" alt="">
+                                <p>
+                                    “FEV Là tuổi trẻ. Là một đoạn thanh xuân màu tím đáng nhớ. Nghĩ lại thời đó siêng
+                                    thật. Đi không ngừng nghỉ. Không mệt mỏi. Giờ già rồi. Chán ghiaaa...^^“
+                                </p>
+                                <div class="name">- Chị Nguyễn Dương Yến Nhi -</div>
+                                <div class="designation">Cựu Phó Chủ Nhiệm</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination swiper-pagination-white"></div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!---------------------------------------FOOTER--------------------------------->
+
+    <!-- Site footer -->
+    <section id="lamchung">
+        <footer class="site-footer">
+            <div class="footer__tittle" data-aos="fade-up" data-aos-delay="100">
+                <h1>Câu lạc bộ Tổ chức sự kiện - FEV</h1>
+                <hr data-aos="fade-up" data-aos-delay="100">
+            </div>
+
+            <div class="footer__content">
+                <div class="container ">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-8" data-aos="fade-up" data-aos-delay="100">
+                            <p class="text-justify">Liên hệ với mình nhé !!!</p>
+
+                        </div>
+
+
+                        <div class="col-xs-6 col-md-4" data-aos="fade-up" data-aos-delay="200">
+                            <!-- <h3>LIÊN HỆ</h3> -->
+                            <ul class="footer-links">
+                                <li>(+84) 834 118 705</li>
+                                <li>fpteventclub@gmail.com</li>
+                                <li>Trường ĐH FPT TP.HCM
+                                    Khu CNC, TP.Thủ Đức,
+                                    Việt Nam</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                </div>
+
+                <div id="social" class="socialDark">
+                    <a href="https://www.facebook.com/FPTEventClub/"><span class="fab fa-facebook"></span></a>
+                    <a href="https://www.instagram.com/fev_thewaywewent/"><span class="fab fa-instagram"></span></a>
+                    <a href="https://www.youtube.com/channel/UCqfYEyhLA5AkGi_g5cGdFDQ"><span
+                            class="fab fa-youtube"></span></a>
+                    <a href="https://www.tiktok.com/@fptueventclub"><span class="fab fa-tiktok"></span></a>
+
+                </div>
+                <!-- <div id="social" class="socialLight">
+                <a href="https://www.facebook.com/FPTEventClub/"><span class="fab fa-facebook"></span></a>
+                <a href="https://www.instagram.com/fev_thewaywewent/"><span class="fab fa-instagram"></span></a>
+                <a href="https://www.youtube.com/channel/UCqfYEyhLA5AkGi_g5cGdFDQ"><span class="fab fa-youtube"></span></a>
+                <a href="https://www.tiktok.com/@fptueventclub"><span class="fab fa-tiktok"></span></a>
+            </div>  -->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                            <p class="copyright-text text-center">Copyright ©2021 All rights reserved | Powered by FPTU
+                                Event
+                                Club <i class="fa fa-heart"></i> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="hr__end">
+
+        </footer>
+    </section>
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+    <!-----------------------------------B4 SNIPPET--------------------------->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <!---------------------------------JQUERY AJAX- LOADER---------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- -------------------------------CDN WAYPOINT---------------------------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js">
+    </script> <!-- -------------------CDN FONTAWSOME---------------------------------------------- -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js"></script>
+
+    <!---------------------------------CDN WOWJS---------------------------------------------->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <!---------------------------------CDN AOS------------------------------------------------>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="https://use.fontawesome.com/1744f3f671.js"></script>
+    <!---------------------------------OWL CAROUSEL------------------------------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="./js/owlcarousel.js"></script>
+
+    <!---------------------------------COUNTER------------------------------------------------>
+    <script src="./js/jquery.countup.js"></script>
+    <!---------------------------------LIGHT BOX------------------------------------------------>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"> </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+
+    <!-- swiper  -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.9/swiper-bundle.min.js"></script> -->
+    <script src="https://md-aqil.github.io/images/swiper.min.js"></script>
+
+    <!-- LazyLoad -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyload/1.9.1/jquery.lazyload.min.js"></script>
+
+
+
+    <script src="./js/lightbox.js"></script>
+    <script src="./js/feedback.js"></script>
+    <script src="./js/fev-event.js"></script>
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+
+.loader {
+    width: 100vw;
+    height: 100vh;
+    /* overflow: hidden; */
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    position: fixed;
+    transition: all step-end;
+    z-index: 1000;
+}
+
+.box_section {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: white;
+    border-radius: 20px;
+    animation: 1s ease-in-out alternate infinite shadows;
+}
+.loader img {
+    width: 100px;
+}
+.img_filter {
+    width: 120px;
+    height: 120px;
+    opacity: 0.2;
+    position: absolute;
+    background: #f6f7f9;
+    background-image: linear-gradient(to right, #f6f7f9 0%, #e9ebee 20%, #f6f7f9 40%, #f6f7f9 100%);
+    background-repeat: no-repeat;
+}
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: -468px 0;
+    }
+    100% {
+        background-position: 468px 0;
+    }
+}
+@keyframes shadows {
+    0% {
+        box-shadow: none;
+    }
+    100% {
+        box-shadow: 9px 16px 8px rgb(227, 227, 227);
+    }
+}
